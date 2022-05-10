@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of reset css*/
+
+@font-face{
+			font-family: segoewpn;
+			src:url(../fonts/SegoeWPN.woff);
+          }
+
+@font-face{
+			font-family: segoe-wp-light;
+			src:url(../fonts/segoe-wp-light.ttf);
+			}
+/*font added*/
+
+
+body{
+		
+		font-family: segoeWPN;
+		font-size: 14px;
+		color: #909090;
+		
+	}
+
+h1{font-size:42px }
+h2{font-size:38px }
+h3{font-size:32px }
+h4{font-size:26px }
+h5{font-size:20px }
+h6{font-size:18px }
+
+
+.clear{clear: both;}
+
+/*Actual Code*/
+
+.container{
+			width: 1024px;
+			
+			margin: 0 auto;
+}
+
+/*header*/
+.header	{
+			padding:24px 25px 0px 27px;
+		}
+.header .box-logo{
+					float: left;
+					
+					
+				}
+					
+.header .box-nav{
+					float: right;
+					
+				}
+		.box-nav ul{
+					margin:0;
+					padding:0;
+					list-style: none;
+					margin-top: 26px;
+					}
+
+		.box-nav ul li{ display: inline-block;}
+
+		.box-nav ul li a{font-size: 20px; 
+				color: #6c6c6c;
+				text-decoration: none;
+				padding: 0 18px 21px 0;
+				display: block;
+			}
+
+		.box-nav ul li:hover a{ 
+								border-bottom: 3px solid #5094f2;
+
+			
+				}
+
+
+/*slider*/
+.slider img{
+				width: 100%;
+				height: auto;
+}
+			
+
+
+
+/*services*/
+.services{
+			
+			padding: 63px 20px 52px 20px;
+			}
+
+.ser-box{
+			
+			width: 250px;
+			float: left;
+			text-align: center;
+
+
+		} 
+
+.ser-box.mid{
+			margin: 0  134px 0  91px;
+}
+
+.ser-des h5{
+					padding-top:  30px ;
+					padding-bottom: 10px;
+				}
+
+
+
+/*main-content*/
+.main-content{
+			
+}
+
+.main-content h1{
+					
+					padding-left: 54px;
+					padding-bottom: 31px;
+				}
+.main-content .main-cont-img{
+									max-width: 100%
+									height:auto;
+									float:left;
+									padding:0 73px 50px 94px;
+}
+
+.main-content h4{
+						
+						padding-top:  15px;
+						padding-bottom: 30px;
+				}
+
+.main-content p{
+						line-height: 28px;
+						padding-right: 72px;
+						font-family: Segoe-wp-light;
+
+				}
+
+/*footer*/
+.footer p{
+			text-align: center;
+			padding: 39px 0;
+
+			}
